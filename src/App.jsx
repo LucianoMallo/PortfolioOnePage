@@ -15,10 +15,12 @@ function App () {
           Change Theme
         </p>
       </button>
-      <Home />
+      <div className='App-content'>
 
-      <About />
-      <Projects />
+        <Home />
+        <About />
+        <Projects />
+      </div>
     </div>
   )
 }
