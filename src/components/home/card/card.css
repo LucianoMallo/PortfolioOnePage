@@ -1,0 +1,12 @@
+.Card-Container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.Custom-Card:hover {
+    transform: scale(1.05);
+}
