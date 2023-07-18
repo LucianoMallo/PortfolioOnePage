@@ -3,7 +3,7 @@ import Logo from '../commonComponents/logo/logo'
 import codeLogo from '../../assets/codeLogo.webp'
 import SectionCard from './card/card'
 import './home.css'
-import GithubLogo from '../../assets/GithubLogo.webp'
+import GithubLogo from '../../assets/githubLogo.webp'
 import LinkedInLogo from '../../assets/linkedInLogo.webp'
 
 function Home () {
