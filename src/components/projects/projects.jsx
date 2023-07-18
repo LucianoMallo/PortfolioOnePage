@@ -1,10 +1,10 @@
 import React from 'react'
 import './projects.css'
 import ProjectCard from './projectsCard/projectCard'
-import mineSweeper from '../../assets/minesweeperplaceholder.webp'
-import streamberry from '../../assets/streamberryplaceholder.webp'
-import ecommerce from '../../assets/ecommerceplaceholder.webp'
-import library from '../../assets/libraryplaceholder.webp'
+import mineSweeper from '../../assets/MinesweeperPlaceholder.webp'
+import streamberry from '../../assets/StreamberryPlaceholder.webp'
+import ecommerce from '../../assets/EcommercePlaceholder.webp'
+import library from '../../assets/LibraryPlaceholder.webp'
 
 function Projects () {
   return (
