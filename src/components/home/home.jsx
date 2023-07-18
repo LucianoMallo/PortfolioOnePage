@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../CommonComponents/logo/Logo'
+import Logo from '../CommonComponents/logo/logo'
 import codeLogo from '../../assets/codeLogo.webp'
 import SectionCard from './Card/Card'
 import './home.css'

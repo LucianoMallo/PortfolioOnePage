@@ -1,6 +1,4 @@
 import React from 'react'
-// import LinkedInLogo from '../../images/LinkedIn_logo.png'
-// import Logo from '../CommonComponents/Logo/Logo'
 import './about.css'
 
 function About () {
@@ -20,9 +18,6 @@ function About () {
         <p className='about-description'>Love facing new challenges and constantly learning.
           Always open to taking on challenges that help me grow professionally and improve my skills as a programmer. I am excited to join a dynamic team where contribute my technical skills, work ethic, and passion for programming. Always willing to learn from others and given new ideas.
         </p>
-        <div className='linkedIn-container'>
-          {/* <Logo text='Catch me in LinkedIn' width={30} height={30} alt='LinkedIn Logo' src={LinkedInLogo} href='https://www.linkedin.com/in/luciano-mallo-tomaso/' /> */}
-        </div>
       </div>
     </div>
   )

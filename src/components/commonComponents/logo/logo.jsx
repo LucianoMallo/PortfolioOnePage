@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './Logo.css'
+import './logo.css'
 
 const Logo = ({ src, alt, width, height, href = null, text = null }) => {
   if (href == null && text == null) {
