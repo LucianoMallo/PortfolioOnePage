@@ -3,8 +3,8 @@ import Logo from '../commonComponents/logo/logo'
 import codeLogo from '../../assets/codeLogo.webp'
 import SectionCard from './card/card'
 import './home.css'
-import GithubLogo from '../../assets/githubLogo.webp'
-import LinkedInLogo from '../../assets/linkedInLogo.webp'
+import githubLogo from '../../assets/githubLogo.webp'
+import linkedInLogo from '../../assets/linkedInLogo.webp'
 
 function Home () {
   return (
@@ -16,8 +16,8 @@ function Home () {
       </h2>
       <p>This is my personal page. Here you can find information about me, my projects, and my contact information.</p>
       <div className='Home-Contact'>
-        <Logo text='LinkedIn' width={20} alt='LinkedIn Logo' height={20} src={LinkedInLogo} href='https://www.linkedin.com/in/luciano-mallo-tomaso/' />
-        <Logo text='Github' width={20} alt='Github Logo' height={20} src={GithubLogo} href='https://github.com/LucianoMallo/Portfolio' />
+        <Logo text='LinkedIn' width={20} alt='LinkedIn Logo' height={20} src={linkedInLogo} href='https://www.linkedin.com/in/luciano-mallo-tomaso/' />
+        <Logo text='Github' width={20} alt='Github Logo' height={20} src={githubLogo} href='https://github.com/LucianoMallo/Portfolio' />
       </div>
       <div className='Cards-Container'>
         <SectionCard Title='About' Subtitle='Know me more' Text='' Link='/about' TextLink='Who am i?' />
