@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card'
-import './Card.css'
+import './card.css'
 
 function SectionCard ({ Title, Subtitle, Text, Link, TextLink }) {
   const handleClickScroll = () => {
