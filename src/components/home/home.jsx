@@ -1,10 +1,10 @@
 import React from 'react'
 import Logo from '../commonComponents/logo/logo'
-import codeLogo from '../../assets/codeLogo.webp'
+import codeLogo from '../../assets/CodeLogo.webp'
 import SectionCard from './card/card'
 import './home.css'
-import githubLogo from '../../assets/githubLogo.webp'
-import linkedInLogo from '../../assets/linkedInLogo.webp'
+import githubLogo from '../../assets/GithubLogo.webp'
+import linkedInLogo from '../../assets/LinkedInLogo.webp'
 
 function Home () {
   return (
