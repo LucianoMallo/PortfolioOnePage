@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Logo.css'
 
 const Logo = ({ src, alt, width, height, href = null, text = null }) => {
   if (href == null && text == null) {
@@ -10,12 +11,12 @@ const Logo = ({ src, alt, width, height, href = null, text = null }) => {
     )
   } else {
     return (
-      <a href={href} target='_blank' rel='noopener noreferrer' className='LogoLink'>
+      <button href={href} target='_blank' rel='noopener noreferrer' className='LogoLink'>
         <img src={src} alt={alt} width={width} height={height} loading='lazy' />
         <p>
           {text}
         </p>
-      </a>
+      </button>
     )
   }
 }

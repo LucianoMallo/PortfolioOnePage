@@ -8,10 +8,10 @@ function ProjectCard ({ Title, Text, Link, TextLink, Image }) {
   }
   return (
     <div className='card-container'>
-      <Card style={{ width: '18rem', padding: '20px' }}>
+      <Card>
         <Card.Body style={{ padding: '20px' }}>
           <Card.Title>{Title}</Card.Title>
-          <div style={{ position: 'relative', paddingTop: '70%' }}>
+          <div style={{ position: 'relative', paddingTop: '90%' }}>
             <Card.Img
               variant='top'
               src={Image}

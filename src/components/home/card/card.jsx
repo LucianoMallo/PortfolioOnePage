@@ -14,7 +14,7 @@ function SectionCard ({ Title, Subtitle, Text, Link, TextLink }) {
     <button className='Card-Container' onClick={handleClickScroll}>
       <Card className='Custom-Card' style={{ width: '18rem', borderRadius: '30px' }}>
         <Card.Body>
-          <Card.Title>{Title}</Card.Title>
+          <Card.Title style={{ paddingBottom: '20px' }}>{Title}</Card.Title>
           <Card.Subtitle className='mb-2 text-muted'>{Subtitle}</Card.Subtitle>
           <Card.Text>{Text}
           </Card.Text>
