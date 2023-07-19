@@ -6,7 +6,7 @@
 }
 .projects-container{
     padding: 1% 5% 5% 5%;
-    background-color: #181818;
+    background-color: var(--background-projects);
     border-radius: 20px;
     box-shadow: 0 0 10px #a1a1a1;
 }
