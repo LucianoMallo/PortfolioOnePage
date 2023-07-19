@@ -14,7 +14,7 @@ function Home () {
       </div>
       <div className='Home-Contact'>
         <Logo text='LinkedIn' width={20} alt='LinkedIn Logo' height={20} src={linkedInLogo} href='https://www.linkedin.com/in/luciano-mallo-tomaso/' />
-        <Logo text='Github' width={20} alt='Github Logo' height={20} src={githubLogo} href='https://github.com/LucianoMallo/Portfolio' />
+        <Logo text='Github' width={20} alt='Github Logo' height={20} src={githubLogo} href='https://github.com/LucianoMallo' />
       </div>
       <div className='Cards-Container'>
         <SectionCard Title='About' Subtitle='Know me more' Text='' Link='/about' TextLink='Who am i?' />
